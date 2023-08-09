@@ -16,5 +16,5 @@ async def start(_, m: Message):
             disable_web_page_preview=True, quote=True
         )
     await m.reply(
-        f'Hi {m.from_user.mention(style="md")}, Send me a file to get an instant stream link.'
+        f'Hi {m.from_user.mention(style="md")}, Send me a video file to get an instant stream link.'
     )
