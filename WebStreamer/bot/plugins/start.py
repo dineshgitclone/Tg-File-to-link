@@ -1,8 +1,6 @@
 # This file is a part of TG-FileStreamBot
 # Coding : Jyothis Jayanth [@EverythingSuckz]
 
-pip install --upgrade pip
-
 from pyrogram import filters
 from pyrogram.types import Message
 
